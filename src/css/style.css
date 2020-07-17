@@ -51,6 +51,7 @@ body {
   padding-left: 10px;
 }
 .wrapper2 {
+  margin-top: 152px;
   display: flex;
 }
 .box1 {
@@ -63,4 +64,39 @@ body {
   background-image: url(../images/box2image.jpg);
   width: 540px;
   height: 300px;
+}
+.textbox1 {
+  float: right;
+  margin-top: 96px;
+  margin-right: 56px;
+}
+.textbox2 {
+  margin-top: 96px;
+  margin-left: 56px;
+}
+.textbox1 p {
+  font-size: 16px;
+  font-weight: 300;
+}
+.textbox1 h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 32px;
+}
+.textbox1 span {
+  font-size: 18px;
+  font-weight: 300;
+}
+.textbox2 p {
+  font-size: 16px;
+  font-weight: 300;
+}
+.textbox2 h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 32px;
+}
+.textbox2 span {
+  font-size: 18px;
+  font-weight: 300;
 }
