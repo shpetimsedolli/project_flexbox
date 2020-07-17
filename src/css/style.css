@@ -6,6 +6,25 @@ body {
   width: 100%;
   margin: 0 auto;
 }
+.title {
+  margin-bottom: 50px;
+  font-size: 18px;
+  font-weight: 300;
+}
+.title ul {
+  display: flex;
+}
+.title ul li {
+  color: #c7c7c7;
+  margin-left: 25px;
+}
+.textheader {
+  text-decoration: underline;
+}
+.textheader2 {
+  margin-left: 600px;
+  color: #222222;
+}
 .box_wrapper {
   width: 100%;
   display: flex;
