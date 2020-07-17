@@ -50,3 +50,17 @@ body {
   color: #222222;
   padding-left: 10px;
 }
+.wrapper2 {
+  display: flex;
+}
+.box1 {
+  background-image: url(../images/box1image.jpg);
+  width: 540px;
+  height: 300px;
+  margin-right: 30px;
+}
+.box2 {
+  background-image: url(../images/box2image.jpg);
+  width: 540px;
+  height: 300px;
+}
