@@ -195,6 +195,7 @@ a {
   width: 100%;
   clear: both;
   margin-top: 122px;
+  margin-bottom: 178px;
 }
 .box3 {
   background-image: url(../images/medium2image.jpg);
@@ -240,4 +241,15 @@ a {
   font-size: 14px;
   font-weight: 300;
   padding-left: 30px;
+}
+.boxes_description {
+  width: 100%;
+}
+.boxes3_wrapper {
+  display: flex;
+  margin: 0 -15px;
+}
+.boxes3 {
+  width: 33.333%;
+  padding: 0 15px;
 }
