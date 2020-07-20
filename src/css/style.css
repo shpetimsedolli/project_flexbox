@@ -244,6 +244,7 @@ a {
 }
 .boxes_description {
   width: 100%;
+  margin-bottom: 150px;
 }
 .boxes3_wrapper {
   display: flex;
@@ -268,4 +269,26 @@ a {
   color: #222222;
   font-size: 18px;
   font-weight: 300;
+}
+.medium_fullheader {
+  width: 100%;
+  position: relative;
+}
+.button_header {
+  width: 100%;
+  position: absolute;
+  top: 85px;
+  left: 787px;
+}
+.button__header {
+  width: 311px;
+  height: 68px;
+  background-color: #222222;
+  color: #ffffff;
+  font-size: 19px;
+  font-weight: 400;
+  background: rgba(0, 0, 0, 0.6);
+  padding-top: 17px;
+  outline: 0;
+  border: none;
 }
