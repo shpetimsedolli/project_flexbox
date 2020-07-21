@@ -314,8 +314,8 @@ ul.text__wrapper {
   color: #222222;
   margin-bottom: 25px;
 }
-.main_footer {
-  background: #cccccc;
+.first_footer {
+  background: #efefef;
 }
 .footer__infos img {
   margin-top: 50px;
@@ -335,4 +335,22 @@ ul.text__wrapper {
   margin-bottom: 40px;
   margin-top: 73px;
   text-decoration: underline;
+}
+.nav_wrapper2 {
+  max-width: 1110px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.nav_wrapper2 a {
+  font-size: 16px;
+  font-weight: 300;
+  border-bottom: 1px solid transparent;
+  color: #222222;
+}
+.nav_wrapper2 ul {
+  display: flex;
+}
+.nav_wrapper2 li {
+  margin-left: 32px;
 }
