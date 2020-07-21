@@ -273,6 +273,7 @@ a {
 .medium_fullheader {
   width: 100%;
   position: relative;
+  margin-bottom: 150px;
 }
 .button_header {
   width: 100%;
@@ -293,4 +294,19 @@ a {
 }
 .mediumimages__wrapper {
   display: flex;
+}
+.text_wrapper {
+  display: flex;
+}
+ul.text__wrapper {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 300;
+  color: #222222;
+  line-height: 35px;
+}
+.li__title {
+  font-size: 30px;
+  font-weight: 500;
+  color: #222222;
 }
