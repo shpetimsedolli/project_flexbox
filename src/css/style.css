@@ -288,7 +288,9 @@ a {
   font-size: 19px;
   font-weight: 400;
   background: rgba(0, 0, 0, 0.6);
-  padding-top: 17px;
   outline: 0;
   border: none;
+}
+.mediumimages__wrapper {
+  display: flex;
 }
