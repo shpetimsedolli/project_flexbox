@@ -295,6 +295,9 @@ a {
 .mediumimages__wrapper {
   display: flex;
 }
+.text_section {
+  margin-bottom: 150px;
+}
 .text_wrapper {
   display: flex;
 }
@@ -309,4 +312,27 @@ ul.text__wrapper {
   font-size: 30px;
   font-weight: 500;
   color: #222222;
+  margin-bottom: 25px;
+}
+.main_footer {
+  background: #cccccc;
+}
+.footer__infos img {
+  margin-top: 50px;
+  margin-bottom: 42px;
+}
+.footer__infos li {
+  line-height: 35px;
+}
+.footerWrap {
+  display: flex;
+  height: 394px;
+  justify-content: space-between;
+}
+.title__li {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 40px;
+  margin-top: 73px;
+  text-decoration: underline;
 }
