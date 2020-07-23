@@ -52,6 +52,7 @@ a {
   border-bottom: 1px solid transparent;
 }
 .products_categories {
+  position: relative;
   width: 100%;
   display: flex;
   margin-top: 100px;
@@ -70,6 +71,11 @@ a {
   font-weight: 300;
   color: #c7c7c7;
   border-bottom: 1px solid transparent;
+}
+ul.products_categories li:last-child {
+  position: absolute;
+  right: 0;
+  margin-right: 0px;
 }
 .box_wrapper {
   display: flex;
@@ -253,6 +259,21 @@ a {
 .boxes3 {
   width: 33.333%;
   padding: 0 15px;
+}
+.box__thumb3 {
+  position: relative;
+  border-left: 2px solid;
+}
+.box__thumb3 span {
+  position: absolute;
+  top: 45%;
+  left: -11%;
+  transform: rotate(270deg);
+  width: 117px;
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+  background-color: white;
 }
 .box__content3 h4 {
   font-size: 18px;
